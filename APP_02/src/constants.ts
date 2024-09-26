@@ -1,0 +1,1 @@
+export const PAYMENT_URL = 'https://pse-payment-url.com';

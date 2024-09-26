@@ -35,7 +35,6 @@ const PSEPopup: React.FC = () => {
   };
 
   useEffect(() => {
-    console.log('use efect');
     const handleMessage = (event: MessageEvent) => {
       console.log('Mensaje recibido del popup:', event.origin, event.data);
 
